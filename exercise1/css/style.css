@@ -1,0 +1,16 @@
+
+body{
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.3;
+  background-color: #e5f9ef;
+  text-indent: 36px;
+}
+#p1, h1, #right1 {
+      text-align: center;
+      font-weight: bold;
+      }
+.right{
+   text-align: center;
+   text-indent: 65%;
+    }
