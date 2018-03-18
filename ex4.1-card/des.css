@@ -1,0 +1,49 @@
+
+.picture{
+	background: url("https://images-na.ssl-images-amazon.com/images/I/71xW6aPpFdL._SL1500_.jpg");
+	width: 500px;
+	height: 350px;
+	margin: auto;
+}
+#top{
+	height: 50px;
+	width: 500px;
+	margin: auto;
+	font-size: 32px;
+	color: #ff8c1a;
+	position: absolute;
+	text-align: center;
+	margin-top: 7px;
+	animation: title 10s ease infinite;
+}
+@keyframes title{
+	0%  { color: black;}
+    25%  {  color:#463d34;}
+    50%  { color: #8e6741;}
+    75%  { color: #d28940;}
+    100% {color: #ff8c1a;}
+}
+#right{
+	height: 350px;
+	width: 280px;
+	float: left;
+	position: absolute;
+}
+#left{
+	height: 250px;
+	width: 220px;
+	float: right;
+	margin-top: 62px;
+	margin-right: 35px;
+}
+.picture1{
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+	color: #ff8c1a;
+	margin-top: 282px;
+	position: absolute;
+	animation: title 10s ease infinite;
+}
+}
