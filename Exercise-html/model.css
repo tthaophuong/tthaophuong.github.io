@@ -1,0 +1,121 @@
+.wrap{
+	width: 90%;
+	margin: auto;
+	align-content: center;
+	justify-content: center;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	font-family: inherit;
+	border: 1px solid #273e27;
+}
+.main{
+	width: 100%;
+	height: 500px;
+	border: 1px solid #273e27;
+	border-top: none;
+	display: flex;
+    justify-content: center;
+    display: block;
+    padding: 50px 0px;
+}
+.login{
+	width: 60%;
+    position: absolute;
+    padding: 130px 200px;
+}
+.button{
+	width: 25%;
+	font-size: 20px;
+	text-align: center;
+	outline: none;
+	color: black;
+	/*background-color: #3c773c;*/
+	border: none;
+	border-radius: 20px;
+	font-family: inherit;
+	padding: 5px 50px;
+	text-transform: uppercase;
+
+}
+
+.button: hover{
+	background-color: #87c387;
+}
+.button:active{
+	background-color: #87c387;
+	box-shadow: 0px 3px 6px rgba($color: #000000, $alpha: .27);
+	transform: translate(4px);
+}
+.label{
+	margin: auto;
+	display: block;
+
+}
+.login input[type="text"]{
+	width: 80%;
+	display: block;
+	margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+}
+a{
+	margin: auto;
+	padding: 5px;
+	display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.right{
+	width: 40%;
+	float: right;
+	padding: 30px;
+}
+.left{
+	width: 40%;
+	float: left;
+	padding: 30px;
+}
+.common{
+	width: 70%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-bottom: 35px;
+}
+.common input[type="submit"]{
+	width: 100px;
+	margin-right: 75px;
+	margin-left: 55px;
+}
+.common input[type="text"]{
+	width: 200px;
+	margin-right: 20px;
+}
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: right;
+}
+.operation{
+	width: 60%;
+    position: absolute;
+    padding: 130px 200px;
+
+}
+.operation input{
+	padding: 10px;
+	text-align: center;
+	margin-top: 35px;
+	margin-left: 25%;
+}
+.operation  button {
+	width: 30%;
+    padding: 10px;
+    text-align: center;
+}

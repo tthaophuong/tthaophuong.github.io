@@ -1,0 +1,129 @@
+.wrap{
+	width: 90%;
+	margin: auto;
+	align-content: center;
+	justify-content: center;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	font-family: inherit;
+	border: 1px solid #273e27;
+	overflow: auto;
+}
+.main{
+	width: 100%;
+	border-top: none;
+	display: flex;
+    justify-content: center;
+    display: block;
+}
+.main > p {
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+}
+.login{
+	width: 60%;
+    position: absolute;
+    padding: 130px 200px;
+}
+.button{
+	width: 20%;
+	font-size: 14px;
+	text-align: center;
+	outline: none;
+	color: black;
+	margin-left: 5%;
+	border: none;
+	box-shadow: 3px 3px 6px rgba(#3c773c 0.47);
+	font-family: inherit;
+	padding: 5px 30px;
+	text-transform: uppercase;
+
+}
+
+.button: hover{
+	background-color: #87c387;
+}
+.button:active{
+	background-color: #87c387;
+	box-shadow: 0px 3px 6px rgba($color: #000000, $alpha: .27);
+	transform: translate(4px);
+}
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: right;
+	padding: 5px;
+}
+.part1{
+	display: grid;
+  	grid-template-columns: auto auto auto;
+ 	grid-gap: 10px;
+    padding: 10px;
+    /*border: 1px solid #273e27;*/
+}
+.part1 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+.item3 {
+  grid-column-end: 8;
+}
+.part2{
+	padding: 20px;
+	font-size: 20px;
+}
+.search{
+float: right;
+}
+.search input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.search button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.search button:hover {
+  background: #ccc;
+}
+table, th, td{
+	border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.content{
+	width: 90%;
+	border: 1px solid #273e27;
+	overflow: auto;
+	margin: auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+p{
+	margin-left: 5%;
+	font-size: 20px;
+}
+.part3: #one{
+	text-align: center;
+}
