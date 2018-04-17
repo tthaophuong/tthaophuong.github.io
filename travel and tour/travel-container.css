@@ -1,0 +1,16 @@
+.a3-container-center{
+display: flex;
+justify-content: center;
+/* flex-flow: column; */
+}
+.font-normal{
+    font-size: 18px;
+}
+.text-center{
+    text-align: center;
+}
+.background-color{
+    background: linear-gradient(  #b3b3ff, #ccccff, #ffe6ff,#ffe6e6, #ffdab3, #ffcc99, #ffcc66, #ffbf80  );
+    /* #cc6600, #cc5200, #e68a00, #e6ac00, */
+    
+}

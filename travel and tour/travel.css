@@ -1,0 +1,181 @@
+.main{
+   flex-flow: column;
+   align-items: center; 
+}
+.header-container{
+    position: relative;
+}
+.menu-container{
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+}
+.menu-container a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+.menu-container a:hover{
+    background: cadetblue;
+}
+.left{
+    width: 80%;
+}
+.right{
+    width: 20%;
+}
+.right input{
+    padding: 8px;
+    border-radius: 5px;
+}
+.right button{
+    padding: 8px;
+    border-radius: 5px;
+}
+.image img{
+    min-width: 1300px;
+}
+.travel-content {
+    width: 100%;
+}
+.travel-left{
+    width: 40%;
+    flex-flow: column;
+    margin: auto;
+}
+.travel-right{
+    width: 60%;
+    text-align: center;
+}
+
+.content-left{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    font-size: 26px;
+}
+.image img{
+    max-width: 1300px;
+}
+.content-right{
+    width: 80%;
+}
+.country-content{
+    width: 32%;
+    box-shadow: 3px 3px 6px gray;
+    margin-right: 20px;
+    overflow: hidden;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+.country-content img:hover{
+    opacity: 0.4;
+} 
+.tour{
+    width: 100%;
+    display: flex;
+    padding: 16px;
+}
+.tour-left{
+    width: 80%;
+    margin-left: 20px;
+    font-size: 26px;
+}
+.tour-right{
+    width: 20%;
+    text-align: right;
+    margin-right: 30px;
+    }
+    .tour-right a{
+        text-decoration: none;
+        color: black;
+    }
+    .tour-right a:hover{
+        background: cadetblue;
+    }
+
+.favorite-place{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.intro-place{
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+}
+.intro-place img{
+    max-width: 425px;
+    max-height: 240px;
+}
+.intro-place img:hover{
+    opacity: 0.4;
+}
+.position{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background: gray;
+    padding: 12px;
+    opacity: 0.5;
+}
+.about{
+    width: 100%;
+    display: flex;
+    background: cadetblue;
+    padding: 16px;
+}
+.about-team{
+    width: 50%;
+    text-align: center;
+}
+.about-team1{
+    width: 50%;
+    text-align: center;
+    border-left: 1px solid black;
+}
+.about-team1 input{
+    width: 420px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.registerbtn{
+    background: firebrick;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 18px;
+}
+.about-team img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.contact{
+    display: flex;
+}
+
+.contact-left{
+    width: 20%;
+    margin: auto;
+    font-size: 28px;
+}
+.contact-right{
+    width: 80%;
+    text-align: left;
+}
+.phone{
+    font-size: 20px;
+    line-height: 35px;
+}
