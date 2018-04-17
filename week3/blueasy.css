@@ -1,0 +1,147 @@
+.intro-container .banner{
+    position: relative;
+}
+.title{
+    width: 50%;
+    text-align: left;
+}
+.menu-container{
+    font-size: 24px;
+    padding: 14px 16px;
+    width: 100%;
+    display: flex;
+    background: #d4d4d4;
+    justify-content: center;
+    align-items: center;
+}
+.menu-container a:hover{
+    background: #bbb5b5;
+}
+.menu-media{
+    width: 50%;
+    text-align: right;
+    font-size: 40px;
+}
+.menu-media i{
+    margin-right: 20px;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+.image img{
+    max-width: 1300px;
+}
+.banner-content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    margin-left: 50px;
+    padding: 20px;
+    line-height: 40px;
+}
+.dilicious{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.saying{
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    padding: 16px;
+    background: #efebe6;
+}
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+}
+.services h4{
+    margin-top: 110px;
+}
+
+.coffe{
+width: 25%;
+}
+.coffe img{
+    border-radius: 50%;
+    background: #eee5ef;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    text-align: center;
+    margin-top: -40px;
+}
+.pictures{
+    margin-top: 40px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+.pictures  img:hover{
+    opacity: 0.4;
+} 
+.left img{
+    max-width: 325px;
+}
+.left{
+    width: 25%;
+    /* float: left; */
+    overflow: auto;
+}
+.mid{
+    width: 50%;
+}
+.our {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.blog{
+    width: 50%;
+    background: #eae5b5;
+}
+.chef{
+    width: 50%;
+    background: #c5dbe2;
+    /* display: flex; */
+}
+.chef-intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    line-height: 50px;
+}
+.blog-one{
+    display: flex;
+    /* margin-bottom: 30px; */
+}
+.blog-one img{
+    max-width: 150px;;
+}
+.blog-left{
+    width: 35%;
+    margin: auto;
+}
+.blog-right{
+    width: 65%;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    background-image: url(./images/best-photos-of-mexican-food-background-mexican-food-restaurant-in-restaurant-menu-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 35px;
+    text-align: center;
+    font-size: 24px;
+    justify-content: center;
+}
