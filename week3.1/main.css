@@ -1,0 +1,171 @@
+.main-container {
+    flex-flow: column;
+    margin: auto;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.menu {
+    width: 100%;
+    position: absolute;
+    background: #e0e2e4;
+    padding: 6px;
+    display: flex;
+}
+
+.title {
+    width: 50%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.title a {
+    margin-right: 10px;
+    padding: 14px;
+}
+
+.title a:hover {
+    background: gray;
+}
+
+.banner img {
+    min-width: 100%;
+}
+
+.content {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: auto;
+    flex-flow: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content p {
+    background: gray;
+    width: 32%;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.intro-container {
+    width: 100%;
+    background: #68d4e6;
+}
+
+.service {
+    width: 80%;
+    padding: 16px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.intro-content {
+    width: 80%;
+    padding: 16px;
+    margin: auto;
+    display: flex;
+}
+
+.intro {
+    margin-right: 25px;
+}
+
+.intro i {
+    font-size: 34px;
+    padding: 16px 0px;
+}
+
+.intro span {
+    font-weight: bold;
+    padding: 16px 0px;
+}
+
+.menu1 {
+    width: 80%;
+    padding: 26px;
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.title1 {
+    width: 35%;
+}
+
+.title2 {
+    width: 65%;
+    font-size: 16px;
+    text-align: right;
+}
+
+.title2 a {
+    margin-right: 10px;
+    padding: 14px;
+}
+
+.title2 a:hover {
+    background: gray;
+}
+
+.picture-list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.picture {
+    position: relative;
+    width: 100%;
+}
+
+.picture img {
+    width: 23%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 23%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #8d9898;
+}
+
+.picture:hover .overlay {
+    opacity: 0.6;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-plus:hover {
+    color: rgb(200, 219, 236);
+    opacity: 0.3;   
+}

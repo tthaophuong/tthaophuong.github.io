@@ -1,0 +1,11 @@
+.a3-container-center{
+    display: flex;
+    justify-content: center;
+}
+.font-center{
+    text-align: center;
+}
+.font-normal{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+}
