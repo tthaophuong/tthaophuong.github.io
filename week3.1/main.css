@@ -122,13 +122,15 @@
 
 .picture {
     position: relative;
-    width: 100%;
+    width: 23%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .picture img {
-    width: 23%;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 100%;
+   
 }
 
 .image {
@@ -144,7 +146,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    width: 23%;
+    width: 100%;
     opacity: 0;
     transition: .3s ease;
     background-color: #8d9898;
