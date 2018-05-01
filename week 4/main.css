@@ -1,0 +1,101 @@
+.list-pictures {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    padding: 14px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.titles {
+    width: 33, 333333%;
+    padding: 10px;
+    border-left: 2px solid #d41313;
+}
+
+.features {
+    font-size: 16px;
+}
+
+.collections {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    border-left: none;
+}
+
+.menu a {
+    padding: 5px;
+    border-right: 1px solid #d41313;
+    /* -webkit-clip-path: polygon(0 0, 79%, 0 59%);
+    clip-path: polygon(0 0, 79% 0 59%); */
+}
+
+.images {
+    position: relative;
+}
+
+.list-pictures {
+    padding: 14px;
+    display: flex;
+}
+
+.pictures-container {
+    width: 24%;
+    margin-right: 15px;
+}
+
+.picture {
+    overflow: hidden;
+}
+
+.picture img {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.media-hover {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.media-hover i {
+    font-size: 18px;
+}
+
+.media-hover button {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.media-hover .add {
+    width: 130px;
+    color: white;
+    background: #dc3535;
+}
+
+.add i {
+    margin-right: 6px;
+}
+
+.pictures-container:hover .media-hover {
+    display: block;
+}

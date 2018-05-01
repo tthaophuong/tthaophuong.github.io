@@ -1,0 +1,13 @@
+.a3-container-center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .align-items-center{
+    align-items: center;
+  }
+  .justify-content-center{
+    justify-content: center;
+  }
+  
