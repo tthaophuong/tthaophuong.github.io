@@ -97,5 +97,12 @@
 }
 
 .pictures-container:hover .media-hover {
-    display: block;
+    display: flex;
+}
+.para{
+    display: flex;
+}
+.para p{
+    margin-right: 20px;
+    color:#d41313;
 }
