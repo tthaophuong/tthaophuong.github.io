@@ -1,0 +1,45 @@
+<!--
+  Generated template for the MenuPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content>
+  <div class="blog">
+    <h4> Menu Special</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit… </p>
+    <div class="blog-one">
+      <div class="blog-left">
+        <img src="./assets/imgs/blog-restaurant-6.jpg" alt="">
+      </div>
+      <div class="blog-mid ">
+        <h4>Monday Special</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. </p>
+        <ion-label block id="total"> 16</ion-label>
+      </div>
+      <div class="blog-right">
+        <ion-icon name="remove-circle" id="minus" (click)="removeMeal()"> </ion-icon>
+        <ion-label block id="result">{{number}}</ion-label>
+        <ion-icon name="add-circle" id="bonus" (click)="addMeal()"> </ion-icon>
+
+      </div>
+    </div>
+    <div class="blog-one">
+      <div class="blog-left">
+        <img src="./assets/imgs/blog-restaurant-4.jpg" alt="">
+      </div>
+      <div class="blog-mid">
+        <h4>Tuesday Special</h4>
+        <p>Lorem ipsum dolor sit amet. Donec eu pulvinar magna.</p>
+      </div>
+      <div class="blog-right">
+
+
+      </div>
+    </div>
+    <button ion-button (click)="bill()"> Total</button>
+    <ion-label block id="resultLast">000000</ion-label>
+  </div>
+</ion-content>

@@ -1,0 +1,14 @@
+<ion-content>
+        <div class="day-in-month row">
+                <div class="day" (click)="changeNumber(number)" *ngFor="let number of months" [class.active]="number && number ==numberSelected" >
+                  <span *ngIf="number" >{{number}}</span>
+                  <div class="bg" *ngIf="number && number == numberSelected" ></div>
+                </div>
+              </div>
+            
+              <div class="day-of-weeks" margin-top>
+                <div class="day" *ngFor="let day of dayofweeks">
+                  {{day}}
+                </div>
+              </div>
+</ion-content>

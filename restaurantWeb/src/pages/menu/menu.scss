@@ -1,0 +1,22 @@
+page-menu {
+    .blog-one{
+        display: flex;
+        width: 100%;
+    }
+    .blog-one img{
+        max-width: 150px;;
+    }
+    .blog-left{
+        width: 15%;
+        margin: auto;
+    }
+    .blog-mid{
+        width: 65%; 
+        // text-align: left;
+    }
+    .blog-right{
+        width:  20%;
+        display: flex;
+        padding: 16px;
+    }
+}

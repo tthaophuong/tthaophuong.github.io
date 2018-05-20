@@ -1,0 +1,73 @@
+page-introduce {
+  .intro-container .banner {
+    position: relative;
+  }
+  .title {
+    width: 50%;
+    text-align: left;
+  }
+  .menu-container {
+    font-size: 24px;
+    padding: 14px 16px;
+    display: flex;
+    background: #d4d4d4;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-container a:hover {
+    background: #bbb5b5;
+  }
+  .menu-media {
+    width: 50%;
+    text-align: right;
+    font-size: 40px;
+  }
+  .menu-media i {
+    margin-right: 20px;
+  }
+  a:-webkit-any-link {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+  }
+  .image img {
+    max-width: 1300px;
+  }
+  .banner-content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    margin-left: 50px;
+    padding: 20px;
+    line-height: 40px;
+  }
+  .dilicious {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .media {
+    background: cadetblue;
+    text-align: center;
+    padding: 12px;
+  }
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: rgb(74, 167, 167);
+  }
+  .contact1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 12px;
+  
+}
+.contact{
+    padding: 12px;
+}
+}
